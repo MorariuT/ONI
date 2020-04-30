@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1586346470 source:/home/morariutudor/programe Nationala C++ Tudor/daruri/main.cpp
+	<iostream>
+	<fstream>
+

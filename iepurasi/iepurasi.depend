@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1584372206 source:/home/morariutudor/programe Nationala C++ Tudor/iepurasi/main.cpp
+	<iostream>
+	<fstream>
+	<limits.h>
+

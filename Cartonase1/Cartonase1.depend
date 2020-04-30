@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1585724498 source:/home/morariutudor/programe Nationala C++ Tudor/Cartonase1/main.cpp
+	<iostream>
+	<fstream>
+	<limits.h>
+

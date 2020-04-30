@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1585062891 source:/home/morariutudor/programe Nationala C++ Tudor/Culegere1/main.cpp
+	<iostream>
+	<fstream>
+

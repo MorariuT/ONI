@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1585244744 source:/home/morariutudor/programe Nationala C++ Tudor/Furnica1/main.cpp
+	<iostream>
+	<fstream>
+

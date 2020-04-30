@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1585071485 source:/home/morariutudor/programe Nationala C++ Tudor/amuleta/main.cpp
+	<iostream>
+	<math.h>
+	<fstream>
+
