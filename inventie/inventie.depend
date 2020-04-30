@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1584208175 source:/home/morariutudor/programe Nationala C++ Tudor/inventie/main.cpp
+	<iostream>
+	<fstream>
+	<limits.h>
+

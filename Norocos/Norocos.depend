@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1584109969 source:/home/morariutudor/programe Nationala C++ Tudor/Norocos/main.cpp
+	<iostream>
+	<fstream>
+	<limits.h>
+

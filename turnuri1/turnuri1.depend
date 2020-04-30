@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1585397635 source:/home/morariutudor/programe Nationala C++ Tudor/turnuri1/main.cpp
+	<iostream>
+	<fstream>
+	<math.h>
+

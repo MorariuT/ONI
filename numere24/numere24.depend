@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1585337449 source:/home/morariutudor/programe Nationala C++ Tudor/numere24/main.cpp
+	<iostream>
+	<fstream>
+	<math.h>
+	<limits.h>
+

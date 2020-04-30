@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1586791819 source:/home/morariutudor/programe Nationala C++ Tudor/Munti/main.cpp
+	<iostream>
+	<limits.h>
+	<fstream>
+
