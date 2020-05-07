@@ -1,58 +1,61 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-ifstream fin("ksir.in");
-ofstream fout("ksir.out");
+ifstream fin("ksir1.in");
+ofstream fout("ksir1.out");
 int main()
 {
     long long int k = 0; fin >> k;
+    //cout << k << endl;
     long long int g = 1;
+    long long int suma = 0;
+    long long int suma_p = 0;
     long long int num = 0;
+    long long int i = 0;
+    long long i2 = 0;
+    long long nr_pentru_generare = 0;
+    long long int numere_sir = 1;
     while(true)
     {
-        long long int i = 1;
-        long long int break_1 = 0;
-        while(i <= g)
+        suma += numere_sir;
+        nr_pentru_generare += 2;
+        if(k <= suma)
         {
-            num++;
-            if(num == k)
-            {
-                //cout << "###################################### AM_INTRAT " << endl;
-                break_1 = 1;
-                fout << i%10 << endl;
-                break;
-            }
-            //cout << i;
-           // cout << " #################################     while 1        num = " << num << endl;
-
-            i++;
-        }
-        if(break_1 == 1)
-        {
+        //  cout << k << " " << numere_sir-i << " " << i+1 << " " << numere_sir << "am iesit" << " " << suma << " " << suma_p << endl;
+            i2 = i;
             break;
         }
-        i = 1;
-        while(i <= g-1)
-        {
-            num++;
-            if(num == k)
-            {
-                //cout << "###################################### AM_INTRAT " << endl;
-                break_1 = 1;
-                fout << g%10 << endl;;
-                break;
-            }
-            //cout << g;
-            //cout << " #################################       while 2      num = " << num << endl;
-
-            i++;
-        }
-        if(break_1 == 1)
-        {
-            break;
-        }
-        g++;
+        numere_sir += 2;
+        i++;
+        suma_p = suma;
     }
-    //cout << "Hello world!" << endl;
+    long long int numarator = suma_p;
+    int break1 = 0;
+    for(int i = 1;i <= i2+1;i++)
+    {
+        numarator++;
+       //out << i;
+        if(numarator == k)
+        {
+            break1 = 1;
+       //   cout << "AM INTRAT" << endl;
+            fout << i;
+            break;
+        }
+    }
+    if(break1 == 0)
+    {
+        for(int i = 1;i <= i2;i++)
+        {
+       //  cout << i2+1;
+            numarator++;
+            if(numarator == k)
+            {
+         //    cout << "AM INTRAT" << endl;
+                fout << i2+1;
+                break;
+            }
+        }
+    }
     return 0;
 }
